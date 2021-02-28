@@ -37,6 +37,8 @@ int main(){
                 cout << "Enter an infix expression : ";
                 cin >> expr;
                 Parser parser(expr);
+                parser.expr();
+                cout << endl;
         }
         return 0;
 }
