@@ -30,14 +30,14 @@
 
 class Parser {
         private:
-                std::string expression;
+                std::string e;
                 int index;
         public:
-                Parser(std::string e): expression(e), index(0) {};
+                Parser(std::string e): e(e), index(0) {};
                 void expr();
                 void rest();
                 void term();
-                char lookahead() const { return expression.at(index); };
+                char lookahead() const { return (index< e.length())? e.at(index) : static_cast<char>(0); };
                 void match(char);
 };
 

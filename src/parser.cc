@@ -44,7 +44,7 @@ void Parser::match(char c) {
 // as given in the book, this routine could well be embedded into the
 // expr() routine. I kept it as a separate method for the sake of clarity
 void Parser::rest() {
-        while (true) {
+        while(true) {
                 if (lookahead() == '+') {
                         match('+');
                         term();
@@ -53,7 +53,8 @@ void Parser::rest() {
                         match('-');
                         term();
                         std::cout << '-';
-                } else
+                
+                } else 
                         return;
         }
 }
