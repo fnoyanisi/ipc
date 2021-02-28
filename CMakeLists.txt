@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(ipc 
         VERSION 1.0
         DESCRIPTION "A simple infix to postfix converter"
-        LANGUAGE CXX_STANDARD
+        LANGUAGES CXX
         )
 
 add_subdirectory(src)
