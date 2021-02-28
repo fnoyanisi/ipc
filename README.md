@@ -32,7 +32,7 @@ Simple enough, so no extra explanations are required.
 You need `cmake` to compile the code. 
 
 ```
-$ git clone https://github.com/fnoyanisi/Compilers101.git
+$ git clone https://github.com/fnoyanisi/ipc.git
 $ cd ipc
 $ mkdir build
 $ cd build 
