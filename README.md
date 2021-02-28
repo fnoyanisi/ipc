@@ -1,6 +1,6 @@
 # ipc - simple infix to postfix converter
 
-Adapted from the topic presented in the second chapter of _Compilers Principles Techniques and Toolds, 2nd Edition (aka the Dragon Book)_. The book has a Java code snippet doing the same thing as this littel program. 
+Adapted from the topic presented in the second chapter of _Compilers Principles Techniques and Toolds, 2nd Edition (aka the Dragon Book)_. The book has a Java code snippet doing the same thing as this litte program. 
 
 The program uses a simple predictive parser to convert an infix expression into a postfox form. Only single digit number are recognised by the parser.
 
